@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <div class="header">
+            </div>
+            <div class="main-head">
+                <h1>ONE PIECE</h1>
+                <hr class="rounded">
+                <div class="info">
+                    <h5>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </h5>
+                </div>
+                <input type="email" id="email" placeholder="email@email.com">
+                <hr class="rounded">
+                <button id="btn-assinar">Lorem ipsum</button>
+                <label for="termos">
+                    <input type="checkbox" id="termos">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</p>
+                </label>
+            </div>
+
+        </div>
+
+        <div class="main">
+            <section class="historia">
+                <aside class="texto">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <h5>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, facilis, ratione? Ab asperiores, est ipsa laudantium magnam, quas quisquam sequi totam velit voluptas voluptatem voluptatum. Debitis illo non quas rem.
+                    </h5>
+                </aside>
+                <aside>
+                    <img src="./assets/desktop/asce-1.png" alt="Ace">
+                </aside>
+            </section>
+
+            <section class="personagens" id="person">
+                <!-- ZORO -->
+                <div class="character" id="zoro">
+                    <img src="./assets/desktop/zoro1.png" alt="Zoro">
+                    <h2>ZORO</h2>
+                </div>
+
+                <div class="character hide-char character-solo" id="zoro-desc">
+                    <img src="./assets/desktop/zoro2.png" alt="Zoro">
+                    <div class="text-person">
+                        <h2>RORONOA ZORO</h2>
+                        <h5>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, facilis, ratione? Ab asperiores, est ipsa laudantium magnam, quas quisquam sequi totam velit voluptas voluptatem voluptatum. Debitis illo non quas rem.
+                        </h5>
+                    </div>
+                    <div id="fechar" onclick="fecharDescricao()">
+                        <img id="fechar-btn" src="./assets/desktop/fechar.png" alt="fechar">
+                    </div>
+                </div>
+                <!-- --------------------------------- -->
+
+                <!-- LUFFY -->
+                <div class="character" id="luffy">
+                    <img src="./assets/desktop/luffy1.png" alt="Luffy">
+                    <h2>LUFFY</h2>
+                </div>
+
+                <div class="character hide-char character-solo" id="luffy-desc">
+                    <img src="./assets/desktop/luffy2.png" alt="Luffy">
+                    <div class="text-person">
+                        <h2>Monkey D. Luffy</h2>
+                        <h5>
+                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, facilis, ratione? Ab asperiores, est ipsa laudantium magnam, quas quisquam sequi totam velit voluptas voluptatem voluptatum. Debitis illo non quas rem.
+                        </h5>
+                    </div>
+                    <div id="fechar" onclick="fecharDescricao()">
+                        <img id="fechar-btn" src="./assets/desktop/fechar.png" alt="fechar">
+                    </div>
+                </div>
+                <!-- --------------------------------- -->
+                
+                <!-- USOP -->
+                <div class="character" id="usopp">
+                    <img src="./assets/desktop/usop1.png" alt="Usopp">
+                    <h2>USOPP</h2>
+                </div>
+
+                <div class="character hide-char character-solo" id="usopp-desc">
+                    <img src="./assets/desktop/usopp2.png" alt="Usopp">
+                    <div class="text-person">
+                        <h2>USOPP</h2>
+                        <h5>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, facilis, ratione? Ab asperiores, est ipsa laudantium magnam, quas quisquam sequi totam velit voluptas voluptatem voluptatum. Debitis illo non quas rem.
+                        </h5>
+                    </div>
+                    <div id="fechar" onclick="fecharDescricao()">
+                        <img id="fechar-btn" src="./assets/desktop/fechar.png" alt="fechar">
+                    </div>
+                </div>
+                <!-- --------------------------------- -->
+
+
+            </section>
+
+            
+            <section class="galeria">
+                <h2>WALLPAPERS</h2>
+                
+                <!-- Imagem 1 -->
+                <div class="wallpaper" id="foto1">
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <img src="./assets/desktop/wallpaper1.png">
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+                <!-- Imagem 2 -->
+                <div class="wallpaper mySlides" id="foto2">
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <img src="./assets/desktop/wallpaper2.jpg">
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+                <!-- Imagem 3 -->
+                <div class="wallpaper mySlides" id="foto3">
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <img src="./assets/desktop/wallpaper3.jpg">
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+
+            </section>
+
+            <section class="zoro-sola">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
+                <div class="zoro">
+                    <figure id="zoro-duelo">
+                        <img src="./assets/desktop/zoro-duelista.png">
+                    </figure>
+                    <div class="hide-char" id="duelo">
+                        <div id="zoro">
+                            <h2>Roronoa Zoro</h2>
+                            <figure>
+                                <img src="./assets/desktop/zoro-combat.png" alt="Zoro Combat">
+                            </figure>
+                            <div id="atributos">
+                                <h3 id="zcombate">Strenght: 90</h3>
+                                <h3 id="zhaki">Haki: 50</h3>
+                                <h3 id="zestrategia">Strategy: 70</h3>
+                                <h3 id="zdeterminacao">Determine: 95</h3>
+                            </div>
+                        </div>
+                        <figure id="versus">
+                            <img src="./assets/desktop/versus.png" alt="versus">
+                        </figure>
+
+                    </div>
+                </div>
+                <button id="btn-sortear" onclick="sortear()">Lorem ipsum </button>
+            </section>
+        </div>
+
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
